@@ -39,7 +39,7 @@ public class SamplePart {
 		parent.setLayout(new GridLayout(1, false));
 		
 		StyledText styledText = new StyledText(parent, SWT.BORDER);
-		styledText.setFont(SWTResourceManager.getFont("Segoe UI", 15, SWT.BOLD));
+		styledText.setFont(SWTResourceManager.getFont("Segoe UI", 15, SWT.NORMAL));
 		styledText.setAlignment(SWT.CENTER);
 		styledText.setText("Hello, World!\r\n\r\nThis is a basic Eclipse RCP Application\r\n\r\nAswin Rajkumar\r\nwww.asw.in\r\nhi.aswin@gmail.com");
 		styledText.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true, 1, 1));
